@@ -26,7 +26,3 @@ The following structure should be followed for each task in the Ansible playbook
 * Use `loop` instead of `with_items` for iterating over lists.
 * When loops are used, customize the loop variable name using `loop_control` for better readability.
 * Always use `true` and `false` for boolean values.
-
-## Licensing
-
-Unless otherwise noted([comment headers](https://reuse.software/spec-3.3/#comment-headers)/[REUSE.toml](https://reuse.software/spec-3.3/#reusetoml)), this agent skill is licensed under [the 4.0 International version of the Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0/), or any of its more recent versions of your preference.
